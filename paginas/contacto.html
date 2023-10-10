@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../imagenes/Logo puie redondo lila-02.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"> <img src="../imagenes/Logo puie negro.png" alt="Logo Puie" width="73px" height="33px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../paginas/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/mayoristas.html">Venta mayorista</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../paginas/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+</header>
+  <main>
+    <div class="contacto">
+      <div>
+        <h2>Contactanos</h2>
+        <form class="formulario-contacto" action="action">
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre y Apellido</label>
+            <input type="text" class="form-control" id="nombre" >
+          </div>
+          <div class="mb-3">
+            <label for="mail" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com">
+          </div>
+        <div class="mb-3">
+          <label for="numero" class="form-label">Teléfono</label>
+          <input type="number" class="form-control" id="numero">
+        </div>
+        <div class="mb-3">
+          <label for="textarea" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="textarea" rows="3"></textarea>
+        </div>
+        <button class="primario">Enviar</button>
+      </form>
+      </div>
+      <div>
+        <img class="foto-contacto" src="../imagenes/canasta-contacto.png" alt="Productos Puie">
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div>
+      <ul>
+        <li><a href="./index.html"><img width="76px" src="../imagenes/Logo puie.svg" alt="Logo puie"></a></li>
+        <li>
+          <h1>Quesos de cabra y vaca</h1>
+        </li>
+      </ul>
+    </div>
+    <div class="lista footer">
+      <ul>
+        <li class="titulo-footer">Categorias</li>
+        <li><a href="./paginas/productos.html">Productos</a></li>
+        <li><a href="./paginas/mayoristas.html">Venta mayorista</a></li>
+        <li><a href="./paginas/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+        <li><a href="./paginas/contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="lista footer">
+      <ul>
+        <li class="titulo-footer">Contacto</li>
+        <li>puieinfo@gmail.com</li>
+        <li><a href="https://wa.me/message/ZTAXW6FG7PNSI1">+54 9 11 5570-0404</a></li>
+        <li><a href="https://www.instagram.com/puieoficial/?hl=es-la">@puieinfo</a></li>
+        <li>Pringles 1330, Capital Federal, Arg.</li>
+      </ul>
+    </div>
+  </footer>
+  <div class="derechos-reservados">
+    <p>© 2023 Puie. Todos los derechos reservados.</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

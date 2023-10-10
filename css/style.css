@@ -1,0 +1,684 @@
+/* RESET */
+* {
+    background-color: #F9F9F9;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+/* Buttons */
+.primario {
+    background-color: #B3A1B2;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+.primario:hover{
+    background-color: #9F8B9E;
+}
+
+.primario:hover a{
+    background-color: #9F8B9E;
+}
+
+.primario a {
+    background-color: #B3A1B2;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.secundario {
+    padding: 12px 24px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.secundario a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.secundario img {
+    background-color: none;
+}
+
+.secundario:hover{
+    background-color: white;
+}
+
+.secundario:hover a{
+    background-color: #ffffff;
+}
+
+.secundario:hover img{
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px rgba(220, 219, 219, 0.25);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 30000;
+}
+nav div{
+    background-color: white;
+}
+
+
+header ul {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+header a {
+    color: black;
+    font-weight: 600;
+    padding: 0 16px;
+    background-color: #ffffff
+}
+
+header img {
+    background-color: #ffffff;
+    padding: none;
+}
+
+.nav-item{
+    background-color: white;
+}
+
+
+/* Banner */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .foto-principal{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background: none;
+}
+
+.hero .fondo-miguel{
+    width: 50%;
+}
+
+.bandera {
+    height: 18px;
+    padding-left: 16px;
+}
+
+.industria-argentina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    z-index: 2;
+}
+
+
+/* Presentacion productos */
+
+#presentacionProductos {
+    padding: 120px 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#presentacionProductos h2 {
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.fotos-presentacion-productos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 90%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.foto-presentacion {
+    width: 25%;
+}
+
+/* Clientes */
+#clientes {
+    padding: 200px 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#clientes p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.foto-cliente {
+    width: 10%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+.clientes-logos{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Sobre nosotros y mayorista */
+.img-sobre-nosotros {
+    width: 50%;
+}
+
+.img-sobre-nosotros img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#sobreNosotrosSection {
+    display: flex;
+}
+
+.img-mayorista-home {
+    width: 50%;
+}
+
+.img-mayorista-home img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nosotros-mayoristas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.nosotros-mayoristas h2 {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.nosotros-mayoristas p {
+    background-color: white;
+    padding: 10px 100px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.nosotros-mayoristas button {
+    margin-top: 30px;
+}
+
+#mayoristaSection {
+    display: flex;
+}
+
+/* Arte */
+#arte {
+    padding-top: 350px;
+    padding-bottom: 350px;
+}
+
+#arte h2 {
+    text-align: center;
+}
+
+.raya {
+    position: relative;
+    left: 950px;
+    width: 250px;
+}
+
+/* Mapa */
+#mapa h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+iframe{
+    width: 100%;
+    height: 70%;
+}
+
+
+/* Productos */
+.banner-productos {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#cards-productos{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.card-puie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+.card-puie img {
+    width: 100%;
+}
+
+.text-card {
+    text-align: center;
+    background-color: white;
+}
+
+.text-card h4 {
+    background-color: white;
+    padding-bottom: 6px;
+}
+
+.text-card p {
+    font-size: 16px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#materiaPrima {
+    display: flex;
+}
+
+#materiaPrima img {
+    width: 40%;
+    padding-left: 60px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-materia-prima {
+    padding-top: 400px;
+    padding-left: 30px;
+}
+
+.text-materia-prima h2 {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.text-materia-prima p {
+    width: 50%;
+    font-size: 18px;
+}
+.buttons-productos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.buttons-productos button{
+    margin-right: 20px;
+}
+
+
+/* Mayoristas */
+#mayoristaBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content: center;
+}
+
+.text-mayorista-banner {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+.text-mayorista-banner h3 {
+    padding-bottom: 30px;
+    padding-top: 80px;
+    width: 80%;
+}
+
+.text-mayorista-banner p {
+    padding-bottom: 16px;
+    width: 80%;
+}
+
+
+.img-mayoristas-banner {
+    display: flex;
+    width: 60%;
+    position: relative;
+    align-content: center;
+}
+
+.img-mayoristas-banner .celular img{
+    width: 210px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 60px;
+    right: 550px;
+    background: none;
+    z-index: 200;
+}
+
+.img-mayoristas-banner .persona-cajas img{
+    width: 390px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    right: 240px;
+    z-index: 20;
+}
+
+.img-mayoristas-banner .gif-mayorista img{
+    width: 280px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    background: none;
+    top: 190px;
+    right: 90px;
+    z-index: 300;
+}
+
+#preguntasMayoristas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+#preguntasMayoristas h2{
+    background-color: white;
+    padding-bottom: 26px;
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+}
+
+.preguntas p{
+    text-align: center;
+    background-color: white;
+}
+
+.preguntas h6{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.preguntas a{
+    background-color: white;
+    color: black;
+}
+
+#masPreguntasMayorista{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 200px 60px;
+}
+
+#masPreguntasMayorista button{
+  margin-left: 30px;
+}
+
+
+/* Preguntas frecuentes */
+.banner-preguntas-frecuentes {
+    padding-top: 180px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.banner-preguntas-frecuentes h5 {
+    padding-bottom: 20px;
+    color: #B3A1B2;
+    background-color: white;
+}
+
+.banner-preguntas-frecuentes h3 {
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.banner-preguntas-frecuentes p {
+    color: #667085;
+    background-color: white;
+}
+
+.cierre-preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+
+.cierre-preguntas h6{
+    margin-bottom: 20px;
+}
+
+.cierre-preguntas p{
+    margin-bottom: 40px;
+}
+
+/* Contacto */
+.contacto {
+    padding-top: 150px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.contacto div {
+    width: 50%;
+}
+
+.formulario-contacto{
+    width: 100%;
+}
+
+.contacto h2 {
+    padding-left: 60px;
+}
+
+.foto-contacto {
+    width: 80%;
+}
+
+form{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+input{
+    height: 48px;
+    background-color: white;
+    border-color: #D0D5DD;
+    border-radius: 8px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.nombre-apellido{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    background-color: white;
+    padding: 40px 60px;
+}
+
+footer ul{
+    background-color: white;
+}
+
+footer a {
+    color: #4B4B4B;
+    background-color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer li {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #4B4B4B;
+    padding-bottom: 12px;
+}
+
+footer h1 {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+}
+
+footer div {
+    padding-right: 200px;
+    background-color: white;
+}
+
+.titulo-footer {
+    color: #98A2B3;
+    padding-bottom: 16px;
+}
+
+.derechos-reservados {
+    padding: 20px 60px;
+}
+
+.derechos-reservados p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #98A2B3;
+}
+
+/* Media Query Mobile */
+@media (max-width:576px) {
+    header {
+        padding: 16px;
+        height: 60px;
+    }
+    
+    .banner-home{
+        width: 100%;
+    }
+}
