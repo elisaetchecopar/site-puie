@@ -143,6 +143,10 @@ header img {
     background-color: white;
 }
 
+header .navbar{
+    background-color: white !important;
+}
+
 
 /* Banner */
 
@@ -287,7 +291,7 @@ header img {
 
 .nosotros-mayoristas p {
     background-color: white;
-    padding: 10px 100px;
+    padding: 10px 15%;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -399,7 +403,8 @@ iframe{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 50px;
 }
 
 .buttons-productos button{
@@ -435,6 +440,9 @@ iframe{
     width: 80%;
 }
 
+.text-mayorista-banner button {
+    width: 40%;
+}
 
 .img-mayoristas-banner {
     display: flex;
@@ -550,15 +558,24 @@ iframe{
     background-color: white;
 }
 
+#preguntasFrecuentes{
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+#cierrePreguntasSection{
+    background-color: white;
+}
+
 .cierre-preguntas{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0px 60px;
+    margin-bottom: 50px;
     border-radius: 20px;
 }
 
