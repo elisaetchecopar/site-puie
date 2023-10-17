@@ -311,14 +311,26 @@ header .navbar{
     padding-bottom: 350px;
 }
 
+.contenedor-bloque-arte{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto-raya{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 #arte h2 {
     text-align: center;
+    display: inline;
 }
 
 .raya {
-    position: relative;
-    left: 950px;
-    width: 250px;
+    display: flex;
+    width: 240px;
 }
 
 /* Mapa */
@@ -349,9 +361,13 @@ iframe{
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #F9F9F9;
     margin-bottom: 30px;
     padding: 40px;
+
 }
 
 .card-puie img {
@@ -697,7 +713,6 @@ footer div {
 @media (max-width:1100px) {
     header {
         padding: 16px;
-        height: 60px;
     }
 
     .navbar{
@@ -716,6 +731,7 @@ footer div {
         order: 2;
         position: absolute;
         right: 30vw;
+        top: 8;
     }
 
     .navbar-toggler{
@@ -899,10 +915,19 @@ footer div {
         font-size: 24px;
     }
     
+    
+    .texto-raya{
+        align-items: center;
+    }
+    
+    #arte h2 {
+        text-align: center;
+        display: inline;
+    }
+    
     .raya {
-        left: 1px;
-        bottom: 10px;
-        width: 50%;
+        display: flex;
+        width: 180px;
     }
 
     footer {
@@ -924,7 +949,9 @@ footer div {
     }
     .card-puie {
         margin-bottom: 30px;
-        padding: 32px;
+        padding: 32px;    
+        border-radius: 8px;
+        border-style: none;
     }
     
     .text-card h4 {
@@ -980,6 +1007,7 @@ footer div {
      /* Footer mobile */
 
     .derechos-reservados {
+        width: 100%;
         padding: 18px 16px;
     }
     
