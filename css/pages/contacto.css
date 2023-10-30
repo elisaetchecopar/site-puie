@@ -1,46 +1,34 @@
 .contacto {
-  margin-top: 100px;
   display: flex;
-  width: 100%;
-  height: 100%;
-}
-.contacto h2 {
-  padding-top: 50px;
-  padding-left: 60px;
-}
-
-.contacto-mitad {
-  width: 50%;
-  height: 100vh;
-  padding: 40px;
-}
-
-.formulario-contacto {
-  width: 400px;
-}
-.formulario-contacto form {
+  flex-direction: row;
   margin-left: 60px;
-  margin-top: 16px;
+  margin-right: 60px;
+  margin-top: 150px;
+  padding-bottom: 150px;
 }
-.formulario-contacto form input {
-  width: 500px !important;
-  height: 48px;
-  background-color: white;
-  border-color: #D0D5DD;
-  border-radius: 8px;
-  border-style: solid;
-  margin-bottom: 16px;
+.contacto .contacto-form {
+  width: 50%;
+  margin-left: 10%;
 }
-.formulario-contacto form label {
-  margin-bottom: 6px;
-  font-size: 14px;
+.contacto .contacto-form h2 {
+  margin-bottom: 20px;
 }
-
-.foto-contacto {
-  width: 600px;
-  height: 100%;
+.contacto .contacto-form .formulario-contacto {
+  width: 80%;
+}
+.contacto .contacto-form button {
+  width: 100%;
+  color: white;
+}
+.contacto .contacto-foto {
+  width: 50%;
+  display: flex;
+}
+.contacto .contacto-foto img {
+  width: 80%;
+  height: 90%;
+  margin-left: 0%;
   object-fit: cover;
-  padding-right: 60px;
 }
 
 /*# sourceMappingURL=contacto.css.map */

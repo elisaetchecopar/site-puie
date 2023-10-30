@@ -100,3 +100,16 @@ h6{
 .secundario:hover img{
     background-color: white;
 }
+
+
+@keyframes flotacion {
+    0%{
+        transform: translatey(2px);
+    }
+    50%{
+        transform: translatey(4px);
+    }
+    100%{
+        transform: translatey(8px);
+    }
+}

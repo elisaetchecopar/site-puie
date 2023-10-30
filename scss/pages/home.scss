@@ -16,6 +16,11 @@
         left: 0;
         z-index: 200;
         background: none;
+        animation-name: flotacion;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
     }
     .fondo-miguel{
         width: 50%;
