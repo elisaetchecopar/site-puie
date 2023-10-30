@@ -1,0 +1,66 @@
+.banner-preguntas-frecuentes {
+    padding-top: 180px;
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: white;
+    h5 {
+        padding-bottom: 20px;
+        color: #B3A1B2;
+        background-color: white;
+    }
+    h3 {
+        padding-bottom: 20px;
+        background-color: white;
+    }
+    p {
+        color: #667085;
+        background-color: white;
+    }
+}
+
+#preguntasFrecuentes{
+    background-color: white;
+    padding-bottom: 50px;
+    .preguntas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        padding: 50px;
+        p{
+            text-align: center;
+            background-color: white;
+        }
+        h6{
+            text-align: center;
+            background-color: white;
+            padding-bottom: 10px;
+        }
+        a{
+            background-color: white;
+            color: black;
+        }
+    }    
+}
+
+#cierrePreguntasSection{
+    background-color: white;
+    .cierre-preguntas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin: 0px 60px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        h6{
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 40px;
+        }
+    }
+    
+}

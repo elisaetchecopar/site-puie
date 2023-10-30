@@ -1,11 +1,66 @@
-/* RESET */
+header {
+  background-color: #ffffff;
+  color: black;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 16px;
+  box-shadow: 0px 5px 10px rgba(220, 219, 219, 0.25);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 30000;
+}
+header nav div {
+  background-color: #ffffff;
+}
+header nav div img {
+  background-color: #ffffff;
+  padding: none;
+}
+header nav div img a {
+  background-color: #ffffff;
+}
+header nav div ul {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+}
+header nav div ul a {
+  color: black;
+  font-weight: 600;
+  padding: 0 16px;
+  background-color: #ffffff;
+}
+
+.nav-item {
+  background-color: white;
+}
+
+header .navbar {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  padding-left: 0px;
+  background-color: #ffffff;
+}
+
 * {
-    background-color: #F9F9F9;
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    list-style: none;
-    text-decoration: none;
+  background-color: #F9F9F9;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 h2,
@@ -13,1007 +68,1014 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 p {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 h4 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 h5 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-h6{
-    font-size: 20px;
+h6 {
+  font-size: 20px;
 }
 
 /* Buttons */
 .primario {
-    background-color: #B3A1B2;
-    padding: 12px 24px;
-    border-radius: 30px;
-    border-style: none;
+  background-color: #B3A1B2;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border-style: none;
 }
 
-.primario:hover{
-    background-color: #9F8B9E;
+.primario:hover {
+  background-color: #9F8B9E;
 }
 
-.primario:hover a{
-    background-color: #9F8B9E;
+.primario:hover a {
+  background-color: #9F8B9E;
 }
 
 .primario a {
-    background-color: #B3A1B2;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
+  background-color: #B3A1B2;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
 }
 
 .secundario {
-    padding: 12px 24px;
-    border-radius: 30px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
 
 .secundario a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
 }
 
 .secundario img {
-    background-color: none;
+  background-color: none;
 }
 
-.secundario:hover{
-    background-color: white;
+.secundario:hover {
+  background-color: white;
 }
 
-.secundario:hover a{
-    background-color: #ffffff;
+.secundario:hover a {
+  background-color: #ffffff;
 }
 
-.secundario:hover img{
-    background-color: white;
+.secundario:hover img {
+  background-color: white;
 }
 
-/* Header */
-header {
-    background-color: #ffffff;
-    color: black;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-size: 16px;
-    box-shadow: 0px 5px 10px rgba(220, 219, 219, 0.25);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    z-index: 30000;
-}
-nav div{
-    background-color: white;
-}
-
-
-header ul {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    padding: 0 20px;
-}
-
-header a {
-    color: black;
-    font-weight: 600;
-    padding: 0 16px;
-    background-color: #ffffff
-}
-
-header img {
-    background-color: #ffffff;
-    padding: none;
-}
-
-.nav-item{
-    background-color: white;
-}
-
-header .navbar{
-    background-color: white !important;
-}
-
-
-/* Banner */
-
-.hero{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero .foto-principal{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 200;
-    background: none;
-}
-
-.hero .fondo-miguel{
-    width: 50%;
-}
-
-.bandera {
-    height: 18px;
-    padding-left: 16px;
-}
-
-.industria-argentina {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    bottom: 100px;
-    left: 16px;
-    z-index: 2;
-}
-
-
-/* Presentacion productos */
-
-#presentacionProductos {
-    padding: 120px 60px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-#presentacionProductos h2 {
-    background-color: white;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-.fotos-presentacion-productos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    width: 90%;
-    justify-content: space-between;
-    background-color: white;
-}
-
-.foto-presentacion {
-    width: 25%;
-}
-
-/* Clientes */
-#clientes {
-    padding: 200px 60px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-#clientes p {
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 40px;
-}
-
-.foto-cliente {
-    width: 10%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 40px;
-}
-
-.clientes-logos{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-/* Sobre nosotros y mayorista */
-.img-sobre-nosotros {
-    width: 50%;
-}
-
-.img-sobre-nosotros img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-#sobreNosotrosSection {
-    display: flex;
-    flex-direction: row;
-}
-
-.img-mayorista-home {
-    width: 50%;
-}
-
-.img-mayorista-home img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.nosotros-mayoristas {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: white;
-}
-
-.nosotros-mayoristas h2 {
-    background-color: white;
-    padding-bottom: 30px;
-}
-
-.nosotros-mayoristas p {
-    background-color: white;
-    padding: 10px 15%;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.nosotros-mayoristas button {
-    margin-top: 30px;
-}
-
-#mayoristaSection {
-    display: flex;
-}
-
-/* Arte */
-#arte {
-    padding-top: 350px;
-    padding-bottom: 350px;
-}
-
-.contenedor-bloque-arte{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.texto-raya{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-#arte h2 {
-    text-align: center;
-    display: inline;
-}
-
-.raya {
-    display: flex;
-    width: 240px;
-}
-
-/* Mapa */
-#mapa h6{
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-iframe{
-    width: 100%;
-    height: 70%;
-}
-
-
-/* Productos */
-.banner-productos {
-    width: 100%;
-    padding-bottom: 60px;
-}
-
-#cards-productos{
-    margin-left: 60px;
-    margin-right: 60px;
-}
-.card-puie {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 16px;
-    border-style: solid;
-    border-width: 8px;
-    border-color: #F9F9F9;
-    margin-bottom: 30px;
-    padding: 40px;
-
-}
-
-.card-puie img {
-    width: 100%;
-}
-
-.text-card {
-    text-align: center;
-    background-color: white;
-}
-
-.text-card h4 {
-    background-color: white;
-    padding-bottom: 6px;
-}
-
-.text-card p {
-    font-size: 16px;
-    background-color: white;
-    padding-bottom: 20px;
-}
-
-#materiaPrima {
-    display: flex;
-}
-
-#materiaPrima img {
-    width: 40%;
-    padding-left: 60px;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.text-materia-prima {
-    padding-top: 400px;
-    padding-left: 30px;
-}
-
-.text-materia-prima h2 {
-    width: 50%;
-    padding-bottom: 20px;
-}
-
-.text-materia-prima p {
-    width: 50%;
-    font-size: 18px;
-}
-.buttons-productos{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 120px;
-    padding-top: 50px;
-}
-
-.buttons-productos button{
-    margin-right: 20px;
-}
-
-
-/* Mayoristas */
-#mayoristaBanner {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    align-content: center;
-}
-
-.text-mayorista-banner {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 60px;
-}
-
-.text-mayorista-banner h3 {
-    padding-bottom: 30px;
-    padding-top: 80px;
-    width: 80%;
-}
-
-.text-mayorista-banner p {
-    padding-bottom: 16px;
-    width: 80%;
-}
-
-.text-mayorista-banner button {
-    width: 40%;
-}
-
-.img-mayoristas-banner {
-    display: flex;
-    width: 60%;
-    position: relative;
-    align-content: center;
-}
-
-.img-mayoristas-banner .celular img{
-    width: 210px;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: 60px;
-    right: 550px;
-    background: none;
-    z-index: 200;
-}
-
-.img-mayoristas-banner .persona-cajas img{
-    width: 390px;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    top: 30px;
-    right: 240px;
-    z-index: 20;
-}
-
-.img-mayoristas-banner .gif-mayorista img{
-    width: 280px;
-    height: auto;
-    object-fit: cover;
-    position: absolute;
-    background: none;
-    top: 190px;
-    right: 90px;
-    z-index: 300;
-}
-
-#preguntasMayoristas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: white;
-}
-
-#preguntasMayoristas h2{
-    background-color: white;
-    padding-bottom: 26px;
-}
-
-.preguntas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    padding: 50px;
-}
-
-.preguntas p{
-    text-align: center;
-    background-color: white;
-}
-
-.preguntas h6{
-    text-align: center;
-    background-color: white;
-    padding-bottom: 10px;
-}
-
-.preguntas a{
-    background-color: white;
-    color: black;
-}
-
-#masPreguntasMayorista{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 200px 60px;
-}
-
-#masPreguntasMayorista button{
-  margin-left: 30px;
-}
-
-
-/* Preguntas frecuentes */
-.banner-preguntas-frecuentes {
-    padding-top: 180px;
-    text-align: center;
-    padding-bottom: 100px;
-    background-color: white;
-}
-
-.banner-preguntas-frecuentes h5 {
-    padding-bottom: 20px;
-    color: #B3A1B2;
-    background-color: white;
-}
-
-.banner-preguntas-frecuentes h3 {
-    padding-bottom: 20px;
-    background-color: white;
-}
-
-.banner-preguntas-frecuentes p {
-    color: #667085;
-    background-color: white;
-}
-
-#preguntasFrecuentes{
-    background-color: white;
-    padding-bottom: 50px;
-}
-
-#cierrePreguntasSection{
-    background-color: white;
-}
-
-.cierre-preguntas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin: 0px 60px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-}
-
-.cierre-preguntas h6{
-    margin-bottom: 20px;
-}
-
-.cierre-preguntas p{
-    margin-bottom: 40px;
-}
-
-/* Contacto */
-.contacto {
-    margin-top: 100px;
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.contacto-mitad {
-    width: 50%;
-    height: 100vh;
-    padding: 40px;
-}
-
-.formulario-contacto{
-    width: 400px;
-}
-
-.contacto h2 {
-    padding-top: 50px;
-    padding-left: 60px;
-}
-
-.foto-contacto {
-    width: 600px;
-    height: 100%;
-    object-fit: cover;
-    padding-right: 60px;
-}
-
-form{
-    margin-left: 60px;
-    margin-top: 16px;
-}
-
-input{
-    width: 500px !important;
-    height: 48px;
-    background-color: white;
-    border-color: #D0D5DD;
-    border-radius: 8px;
-    border-style: solid;
-    margin-bottom: 16px;
-}
-
-label{
-    margin-bottom: 6px;
-    font-size: 14px;
-}
-
-/* Footer */
 footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    background-color: white;
-    padding: 40px 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  background-color: white;
+  padding: 40px 60px;
 }
-
-footer ul{
-    background-color: white;
+footer ul {
+  background-color: white;
 }
-
-footer a {
-    color: #4B4B4B;
-    background-color: white;
-    text-decoration: none;
-    font-size: 14px;
+footer ul li {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #4B4B4B;
+  padding-bottom: 12px;
 }
-
-footer li {
-    font-size: 14px;
-    font-weight: 600;
-    background-color: #ffffff;
-    color: #4B4B4B;
-    padding-bottom: 12px;
+footer ul li a {
+  color: #4B4B4B;
+  background-color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
-
 footer h1 {
-    font-size: 16px;
-    font-weight: 400;
-    background-color: white;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
 }
-
+footer .titulo-footer {
+  color: #98A2B3;
+  padding-bottom: 16px;
+}
 footer div {
-    padding-right: 200px;
-    background-color: white;
-}
-
-.titulo-footer {
-    color: #98A2B3;
-    padding-bottom: 16px;
+  padding-right: 200px;
+  background-color: white;
 }
 
 .derechos-reservados {
-    padding: 20px 60px;
+  padding: 20px 60px;
+}
+.derechos-reservados p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #98A2B3;
 }
 
-.derechos-reservados p {
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .foto-principal {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background: none;
+}
+.hero .fondo-miguel {
+  width: 50%;
+}
+
+.industria-argentina {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+  left: 16px;
+  z-index: 2;
+}
+.industria-argentina .bandera {
+  height: 18px;
+  padding-left: 16px;
+}
+
+#presentacionProductos {
+  padding: 120px 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#presentacionProductos h2 {
+  background-color: white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#presentacionProductos .fotos-presentacion-productos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 90%;
+  justify-content: space-between;
+  background-color: white;
+}
+#presentacionProductos .fotos-presentacion-productos .foto-presentacion {
+  width: 25%;
+}
+
+#clientes {
+  padding: 200px 60px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#clientes p {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+#clientes .clientes-logos {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#clientes .clientes-logos .foto-cliente {
+  width: 10%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+#sobreNosotrosSection {
+  display: flex;
+  flex-direction: row;
+}
+#sobreNosotrosSection .img-sobre-nosotros {
+  width: 50%;
+}
+#sobreNosotrosSection .img-sobre-nosotros img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#mayoristaSection {
+  display: flex;
+  flex-direction: row;
+}
+#mayoristaSection .img-mayorista-home {
+  width: 50%;
+}
+#mayoristaSection .img-mayorista-home .feta-mano {
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: auto;
+  object-fit: cover;
+}
+
+.nosotros-mayoristas {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.nosotros-mayoristas h2 {
+  background-color: white;
+  padding-bottom: 30px;
+}
+.nosotros-mayoristas p {
+  background-color: white;
+  padding: 10px 15%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.nosotros-mayoristas button {
+  margin-top: 30px;
+}
+
+#arte {
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+#arte .contenedor-bloque-arte {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+#arte .contenedor-bloque-arte .texto-raya {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#arte .contenedor-bloque-arte .texto-raya h2 {
+  text-align: center;
+  display: inline;
+}
+#arte .contenedor-bloque-arte .texto-raya .raya {
+  display: flex;
+  width: 240px;
+}
+
+#mapa h6 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#mapa iframe {
+  width: 100%;
+  height: 70%;
+}
+
+@media (max-width: 1100px) {
+  header {
+    padding: 16px;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .puie-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand {
+    order: 2;
+    position: absolute;
+    right: 30vw;
+    top: 8;
+  }
+  .navbar-toggler {
+    border: none;
+    background-color: white;
+  }
+  .button.nvbar-togg {
+    background-color: white;
+  }
+  .banner-home {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    height: 700px;
+  }
+  .hero .foto-principal {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    z-index: 200;
+    background: none;
+  }
+  .hero .fondo-miguel {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .bandera {
+    height: 12px;
+    padding-left: 10px;
+  }
+  .industria-argentina {
+    bottom: 80px;
+    left: 1px;
+    z-index: 2;
+  }
+  .industria-argentina h5 {
+    font-size: 12;
+  }
+  #presentacionProductos {
+    padding: 100px 2px;
+  }
+  #presentacionProductos h2 {
+    font-size: 18px;
+  }
+  .fotos-presentacion-productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  .foto-presentacion {
+    width: 33%;
+  }
+  .brie {
+    display: none;
+  }
+  #clientes {
+    padding: 200px 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #clientes p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .foto-cliente {
+    width: 30%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 16px;
+  }
+  .clientes-logos {
+    width: 98%;
+    flex-wrap: wrap;
+  }
+  .selva {
+    display: none;
+  }
+  .img-sobre-nosotros {
+    width: 100%;
+  }
+  .img-sobre-nosotros img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  #sobreNosotrosSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  .img-mayorista-home {
+    width: 100%;
+    order: 1;
+  }
+  .img-mayorista-home img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .nosotros-mayoristas {
+    order: 2;
+    width: 100%;
+    background-color: white;
+  }
+  .nosotros-mayoristas h2 {
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  .nosotros-mayoristas p {
+    background-color: white;
+    padding: 6px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .nosotros-mayoristas button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  #mayoristaSection {
+    flex-direction: column;
+  }
+  #arte {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #arte h2 {
+    padding: 0px 22px;
+    font-size: 24px;
+  }
+  .texto-raya {
+    align-items: center;
+  }
+  #arte h2 {
+    text-align: center;
+    display: inline;
+  }
+  .raya {
+    display: flex;
+    width: 180px;
+  }
+  footer {
+    display: none;
+  }
+}
+.banner-productos {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+#cards-productos {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#cards-productos .card-puie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #F9F9F9;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+#cards-productos .card-puie img {
+  width: 100%;
+}
+#cards-productos .card-puie .text-card {
+  text-align: center;
+  background-color: white;
+}
+#cards-productos .card-puie .text-card h4 {
+  background-color: white;
+  padding-bottom: 6px;
+}
+#cards-productos .card-puie .text-card p {
+  font-size: 16px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+#materiaPrima {
+  display: flex;
+}
+#materiaPrima img {
+  width: 40%;
+  padding-left: 60px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#materiaPrima .text-materia-prima {
+  padding-top: 400px;
+  padding-left: 30px;
+}
+#materiaPrima .text-materia-prima h2 {
+  width: 50%;
+  padding-bottom: 20px;
+}
+#materiaPrima .text-materia-prima p {
+  width: 50%;
+  font-size: 18px;
+}
+
+.buttons-productos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  padding-top: 50px;
+}
+.buttons-productos button {
+  margin-right: 20px;
+}
+
+#mayoristaBanner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  align-content: center;
+  padding-left: 60px;
+}
+
+.text-mayorista-banner {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.text-mayorista-banner h3 {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  width: 80%;
+}
+.text-mayorista-banner p {
+  padding-bottom: 16px;
+  width: 80%;
+}
+.text-mayorista-banner button {
+  width: 40%;
+}
+
+.img-mayoristas-banner {
+  display: flex;
+  width: 60%;
+  position: relative;
+  align-content: center;
+}
+.img-mayoristas-banner .celular img {
+  width: 210px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 60px;
+  right: 550px;
+  background: none;
+  z-index: 200;
+}
+.img-mayoristas-banner .persona-cajas img {
+  width: 390px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 30px;
+  right: 240px;
+  z-index: 20;
+}
+.img-mayoristas-banner .gif-mayorista img {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  background: none;
+  top: 190px;
+  right: 90px;
+  z-index: 300;
+}
+
+#preguntasMayoristas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+}
+#preguntasMayoristas h2 {
+  background-color: white;
+  padding-bottom: 26px;
+}
+#preguntasMayoristas .preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+}
+#preguntasMayoristas .preguntas p {
+  text-align: center;
+  background-color: white;
+}
+#preguntasMayoristas .preguntas h6 {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 10px;
+}
+#preguntasMayoristas .preguntas a {
+  background-color: white;
+  color: black;
+}
+
+#masPreguntasMayorista {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 200px 60px;
+}
+#masPreguntasMayorista button {
+  margin-left: 30px;
+}
+
+.banner-preguntas-frecuentes {
+  padding-top: 180px;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: white;
+}
+.banner-preguntas-frecuentes h5 {
+  padding-bottom: 20px;
+  color: #B3A1B2;
+  background-color: white;
+}
+.banner-preguntas-frecuentes h3 {
+  padding-bottom: 20px;
+  background-color: white;
+}
+.banner-preguntas-frecuentes p {
+  color: #667085;
+  background-color: white;
+}
+
+#preguntasFrecuentes {
+  background-color: white;
+  padding-bottom: 50px;
+}
+#preguntasFrecuentes .preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+}
+#preguntasFrecuentes .preguntas p {
+  text-align: center;
+  background-color: white;
+}
+#preguntasFrecuentes .preguntas h6 {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 10px;
+}
+#preguntasFrecuentes .preguntas a {
+  background-color: white;
+  color: black;
+}
+
+#cierrePreguntasSection {
+  background-color: white;
+}
+#cierrePreguntasSection .cierre-preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0px 60px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+#cierrePreguntasSection .cierre-preguntas h6 {
+  margin-bottom: 20px;
+}
+#cierrePreguntasSection .cierre-preguntas p {
+  margin-bottom: 40px;
+}
+
+.contacto {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.contacto h2 {
+  padding-top: 50px;
+  padding-left: 60px;
+}
+
+.contacto-mitad {
+  width: 50%;
+  height: 100vh;
+  padding: 40px;
+}
+
+.formulario-contacto {
+  width: 400px;
+}
+.formulario-contacto form {
+  margin-left: 60px;
+  margin-top: 16px;
+}
+.formulario-contacto form input {
+  width: 500px !important;
+  height: 48px;
+  background-color: white;
+  border-color: #D0D5DD;
+  border-radius: 8px;
+  border-style: solid;
+  margin-bottom: 16px;
+}
+.formulario-contacto form label {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.foto-contacto {
+  width: 600px;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 60px;
+}
+
+@media (max-width: 1100px) {
+  header {
+    padding: 16px;
+  }
+  header .navbar {
+    width: 100%;
+  }
+  header .puie-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .navbar-brand {
+    order: 2;
+    position: absolute;
+    right: 30vw;
+    top: 8;
+  }
+  header .navbar-toggler {
+    border: none;
+    background-color: white;
+  }
+  header .button.nvbar-togg {
+    background-color: white;
+  }
+  .banner-home {
+    width: 100%;
+  }
+  .banner-home .hero {
+    width: 100%;
+    height: 700px;
+  }
+  .banner-home .hero .foto-principal {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    z-index: 200;
+    background: none;
+  }
+  .banner-home .hero .fondo-miguel {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .industria-argentina {
+    bottom: 80px;
+    left: 1px;
+    z-index: 2;
+  }
+  .industria-argentina .bandera {
+    height: 12px;
+    padding-left: 10px;
+  }
+  .industria-argentina h5 {
+    font-size: 12;
+  }
+  #presentacionProductos {
+    padding: 100px 2px;
+  }
+  #presentacionProductos h2 {
+    font-size: 18px;
+  }
+  #presentacionProductos .fotos-presentacion-productos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  #presentacionProductos .fotos-presentacion-productos .brie {
+    display: none;
+  }
+  #presentacionProductos .fotos-presentacion-productos .foto-presentacion {
+    width: 33%;
+  }
+  #clientes {
+    padding: 200px 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #clientes p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #clientes .clientes-logos {
+    width: 98%;
+    flex-wrap: wrap;
+  }
+  #clientes .clientes-logos .selva {
+    display: none;
+  }
+  #clientes .clientes-logos .foto-cliente {
+    width: 30%;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 16px;
+  }
+  /* Seccion mayoristas-sobre nosotros mobile */
+  #sobreNosotrosSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sobreNosotrosSection .img-sobre-nosotros {
+    width: 100%;
+  }
+  #sobreNosotrosSection .img-sobre-nosotros img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  #mayoristaSection {
+    flex-direction: column;
+  }
+  #mayoristaSection .img-mayorista-home {
+    width: 100%;
+    order: 1;
+  }
+  #mayoristaSection .img-mayorista-home img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .nosotros-mayoristas {
+    order: 2;
+    width: 100%;
+    background-color: white;
+  }
+  .nosotros-mayoristas h2 {
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+  .nosotros-mayoristas p {
+    background-color: white;
+    padding: 6px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .nosotros-mayoristas button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  /* Arte mobile */
+  #arte {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #arte .contenedor-bloque-arte .texto-raya {
+    align-items: center;
+  }
+  #arte .contenedor-bloque-arte .texto-raya h2 {
+    padding: 0px 22px;
+    font-size: 24px;
+    text-align: center;
+    display: inline;
+  }
+  #arte .contenedor-bloque-arte .texto-raya .raya {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  /* Productos mobile */
+  .banner-productos {
+    margin-top: 20px;
+    height: 50%;
+    object-fit: cover;
+    padding-bottom: 40px;
+  }
+  #cards-productos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #cards-productos .container .card-puie {
+    margin-bottom: 30px;
+    padding: 32px;
+    border-radius: 8px;
+    border-style: none;
+  }
+  #cards-productos .container .card-puie h4 {
+    padding-bottom: 6px;
+  }
+  #cards-productos .container .card-puie p {
+    padding-bottom: 0px;
+  }
+  #materiaPrima {
+    display: flex;
+    flex-direction: column;
+  }
+  #materiaPrima img {
+    width: 80%;
+    padding-left: 16px;
+    height: auto;
+    object-fit: cover;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  #materiaPrima .text-materia-prima {
+    padding-top: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  #materiaPrima .text-materia-prima h2 {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  #materiaPrima .text-materia-prima p {
+    width: 80%;
+    font-size: 18px;
+  }
+  .buttons-productos {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 50px;
+  }
+  .buttons-productos button {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  /* Footer mobile */
+  .derechos-reservados {
+    width: 100%;
+    padding: 18px 16px;
+  }
+  .derechos-reservados p {
     font-size: 14px;
     font-weight: 400;
     color: #98A2B3;
+  }
 }
 
-/* Media Query Mobile */
-@media (max-width:1100px) {
-    header {
-        padding: 16px;
-    }
-
-    .navbar{
-        width: 100%;
-    }
-
-    .puie-nav{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navbar-brand{
-        order: 2;
-        position: absolute;
-        right: 30vw;
-        top: 8;
-    }
-
-    .navbar-toggler{
-        border: none;
-        background-color: white;
-    }
-
-    .button.nvbar-togg{
-        background-color: white;
-    }
-
-      /* Banner mobile */
-    
-    .banner-home{
-        width: 100%;
-    }
-
-    .hero{
-        width: 100%;
-        height: 700px;
-    }
-    
-    .hero .foto-principal{
-        width: 100%;
-        height: 60%;
-        object-fit: cover;
-        position: absolute;
-        top: 130px;
-        left: 0;
-        z-index: 200;
-        background: none;
-    }
-    
-    .hero .fondo-miguel{
-        width: 80%;
-        height: 400px;
-        object-fit: cover;
-    }
-
-    .bandera {
-        height: 12px;
-        padding-left: 10px;
-    }
-    
-    .industria-argentina {
-        bottom: 80px;
-        left: 1px;
-        z-index: 2;
-    }
-
-    .industria-argentina h5{
-        font-size: 12;
-    }
-
-    /* Presentacion productos mobile */
-
-    #presentacionProductos {
-        padding: 100px 2px;
-    
-    }
-    
-    #presentacionProductos h2 {
-        font-size: 18px;
-    }
-    
-    .fotos-presentacion-productos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        padding-bottom: 24px;
-    }
-    
-    .foto-presentacion {
-        width: 33%;
-    }
-    .brie{
-        display: none;
-    }
-
-    /* clientes mobile */
-
-    #clientes {
-        padding: 200px 16px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #clientes p {
-        text-align: center;
-        font-size: 20px;
-        padding-bottom: 30px;
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    
-    .foto-cliente {
-        width: 30%;
-        padding-right: 12px;
-        padding-left: 12px;
-        padding-bottom: 16px;
-    }
-    
-    .clientes-logos{
-        width: 98%;
-        flex-wrap: wrap;
-    }
-
-    .selva{
-        display: none;
-    }
-
-    /* Seccion mayoristas-sobre nosotros mobile */
-
-    .img-sobre-nosotros {
-        width: 100%;
-    }
-    
-    .img-sobre-nosotros img {
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-    }
-    
-    #sobreNosotrosSection {
-        flex-direction: column;
-        width: 100%;
-    }
-    
-    .img-mayorista-home {
-        width: 100%;
-        order: 1;
-    }
-    
-    .img-mayorista-home img {
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-    }
-    
-    .nosotros-mayoristas {
-        order: 2;
-        width: 100%;
-        background-color: white;
-    }
-    
-    .nosotros-mayoristas h2 {
-        margin-top: 50px;
-        background-color: white;
-        padding-bottom: 30px;
-    }
-    
-    .nosotros-mayoristas p {
-        background-color: white;
-        padding: 6px 20px;
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    
-    .nosotros-mayoristas button {
-        margin-top: 30px;
-        margin-bottom: 50px;
-    }
-    
-    #mayoristaSection {
-        flex-direction: column;
-    }
-
-    /* Arte mobile */
-
-    #arte {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #arte h2 {
-        padding: 0px 22px;
-        font-size: 24px;
-    }
-    
-    
-    .texto-raya{
-        align-items: center;
-    }
-    
-    #arte h2 {
-        text-align: center;
-        display: inline;
-    }
-    
-    .raya {
-        display: flex;
-        width: 180px;
-    }
-
-    footer {
-        display: none;
-    }
-
-    /* Productos mobile */
-
-    .banner-productos {
-        margin-top: 20px;
-        height: 50%;
-        object-fit: cover;
-        padding-bottom: 40px;
-    }
-    
-    #cards-productos{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .card-puie {
-        margin-bottom: 30px;
-        padding: 32px;    
-        border-radius: 8px;
-        border-style: none;
-    }
-    
-    .text-card h4 {
-        padding-bottom: 6px;
-    }
-    
-    .text-card p {
-        padding-bottom: 0px;
-    }
-    
-    #materiaPrima {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    #materiaPrima img {
-        width: 80%;
-        padding-left: 16px;
-        height: auto;
-        object-fit: cover;
-        padding-top: 100px;
-        padding-bottom: 20px;
-    }
-    
-    .text-materia-prima {
-        padding-top: 2px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-    
-    .text-materia-prima h2 {
-        width: 80%;
-        padding-bottom: 20px;
-    }
-    
-    .text-materia-prima p {
-        width: 80%;
-        font-size: 18px;
-    }
-    .buttons-productos{
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 80px;
-        padding-top: 50px;
-    }
-    
-    .buttons-productos button{
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-bottom: 16px;
-    }
-
-     /* Footer mobile */
-
-    .derechos-reservados {
-        width: 100%;
-        padding: 18px 16px;
-    }
-    
-    .derechos-reservados p {
-        font-size: 14px;
-        font-weight: 400;
-        color: #98A2B3;
-    }
-}
+/*# sourceMappingURL=style.css.map */

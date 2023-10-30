@@ -1,0 +1,75 @@
+.banner-productos {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#cards-productos{
+    margin-left: 60px;
+    margin-right: 60px;
+    .card-puie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 16px;
+        border-style: solid;
+        border-width: 8px;
+        border-color: #F9F9F9;
+        margin-bottom: 30px;
+        padding: 40px;
+        img {
+            width: 100%;
+        }
+        .text-card {
+            text-align: center;
+            background-color: white;
+            h4 {
+                background-color: white;
+                padding-bottom: 6px;
+            }
+            p {
+                font-size: 16px;
+                background-color: white;
+                padding-bottom: 20px;
+            }
+        } 
+    
+    }
+}
+
+#materiaPrima {
+    display: flex;
+    img {
+        width: 40%;
+        padding-left: 60px;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .text-materia-prima {
+        padding-top: 400px;
+        padding-left: 30px;
+        h2 {
+            width: 50%;
+            padding-bottom: 20px;
+        }
+        p {
+            width: 50%;
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+.buttons-productos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 50px;
+    button{
+        margin-right: 20px;
+    }
+}

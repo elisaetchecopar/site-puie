@@ -1,0 +1,17 @@
+
+// General
+@import "./general/variables.scss";
+@import "./general/header.scss";
+@import "./general/general.scss";
+@import "./general/footer.scss";
+
+
+// Pages
+@import "./pages/home.scss";
+@import "./pages/productos.scss";
+@import "./pages/mayorsitas.scss";
+@import "./pages/preguntas-frecuentes.scss";
+@import "./pages/contacto.scss";
+
+// Media Queris
+@import "./general/mediaqueris.scss";
