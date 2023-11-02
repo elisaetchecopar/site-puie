@@ -75,6 +75,7 @@ h6{
     border-style: solid;
     border-width: 2px;
     border-color: black;
+    
 }
 
 .secundario a {
@@ -105,10 +106,7 @@ h6{
 @keyframes flotacion {
     0%{
         transform: translatey(2px);
-    }
-    50%{
-        transform: translatey(4px);
-    }
+    }  
     100%{
         transform: translatey(8px);
     }

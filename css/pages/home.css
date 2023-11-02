@@ -161,9 +161,32 @@
   width: 240px;
 }
 
-#mapa h6 {
-  text-align: center;
+#mapa .busca-punto-venta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-bottom: 20px;
+}
+#mapa .busca-punto-venta .boton-ver-mapa {
+  display: flex;
+  flex-direction: row;
+  color: #B3A1B2;
+  padding-left: 30px;
+  align-content: center;
+}
+#mapa .busca-punto-venta .boton-ver-mapa a {
+  display: flex;
+  color: #B3A1B2;
+  text-decoration: none;
+}
+#mapa .busca-punto-venta .boton-ver-mapa h6 {
+  display: flex;
+  font-weight: 100;
+  padding-right: 10px;
+}
+#mapa .busca-punto-venta .boton-ver-mapa img {
+  position: relative;
+  bottom: 4px;
 }
 #mapa iframe {
   width: 100%;
@@ -340,6 +363,33 @@
   .raya {
     display: flex;
     width: 180px;
+  }
+  .busca-punto-venta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .busca-punto-venta .boton-ver-mapa {
+    display: flex;
+    flex-direction: row;
+    color: #B3A1B2;
+    padding-left: 30px;
+    align-content: center;
+  }
+  .busca-punto-venta .boton-ver-mapa a {
+    display: flex;
+    color: #B3A1B2;
+    text-decoration: none;
+  }
+  .busca-punto-venta .boton-ver-mapa h6 {
+    display: flex;
+    font-weight: 100;
+    padding-right: 10px;
+  }
+  .busca-punto-venta .boton-ver-mapa img {
+    position: relative;
+    bottom: 4px;
   }
   footer {
     display: none;

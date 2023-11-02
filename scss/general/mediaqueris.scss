@@ -200,6 +200,39 @@
         }
         
     }
+
+    #mapa{
+    .busca-punto-venta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 20px;
+        .boton-ver-mapa{
+            display: flex;
+            flex-direction: row;
+            color: #B3A1B2;
+            padding-left: 30px;
+            align-content: center;
+            a{
+                display: flex;
+                color: #B3A1B2;
+                text-decoration: none;
+            }
+            h6{
+                display: flex;
+                font-weight: 100;
+                padding-right: 10px;
+            }
+            img{
+                position: relative;
+                bottom: 4px;
+            }
+            
+        }
+    }
+}
+
     
 
     footer {
