@@ -51,15 +51,6 @@ h6 {
   border-radius: 30px;
   border-style: none;
 }
-
-.primario:hover {
-  background-color: #9F8B9E;
-}
-
-.primario:hover a {
-  background-color: #9F8B9E;
-}
-
 .primario a {
   background-color: #B3A1B2;
   text-decoration: none;
@@ -67,6 +58,18 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
+}
+.primario img {
+  background-color: #B3A1B2;
+}
+.primario:hover {
+  background-color: #9F8B9E;
+}
+.primario:hover a {
+  background-color: #9F8B9E;
+}
+.primario:hover img {
+  background-color: #9F8B9E;
 }
 
 .secundario {
@@ -76,7 +79,6 @@ h6 {
   border-width: 2px;
   border-color: black;
 }
-
 .secundario a {
   text-decoration: none;
   color: black;
@@ -84,21 +86,17 @@ h6 {
   font-weight: 600;
   display: inline-block;
 }
-
 .secundario img {
   background-color: none;
 }
-
 .secundario:hover {
-  background-color: white;
+  background-color: #f0f0f0;
 }
-
 .secundario:hover a {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
 }
-
 .secundario:hover img {
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
 @keyframes flotacion {

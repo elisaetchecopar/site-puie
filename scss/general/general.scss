@@ -50,24 +50,28 @@ h6{
     padding: 12px 24px;
     border-radius: 30px;
     border-style: none;
+    a {
+        background-color: #B3A1B2;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline-block;
+    }
+    img{
+        background-color: #B3A1B2;
+    }
+    &:hover{
+        background-color: #9F8B9E;
+        a{
+            background-color: #9F8B9E;
+        }
+        img{
+            background-color: #9F8B9E;
+        }
+    }
 }
 
-.primario:hover{
-    background-color: #9F8B9E;
-}
-
-.primario:hover a{
-    background-color: #9F8B9E;
-}
-
-.primario a {
-    background-color: #B3A1B2;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
-}
 
 .secundario {
     padding: 12px 24px;
@@ -75,32 +79,28 @@ h6{
     border-style: solid;
     border-width: 2px;
     border-color: black;
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline-block;
+    }
+    img {
+        background-color: none;
+    }
+    &:hover{
+        background-color: #f0f0f0;
+        a{
+            background-color:  #f0f0f0;
+        }
+        img{
+            background-color:  #f0f0f0;
+        }
+    }
     
 }
 
-.secundario a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
-}
-
-.secundario img {
-    background-color: none;
-}
-
-.secundario:hover{
-    background-color: white;
-}
-
-.secundario:hover a{
-    background-color: #ffffff;
-}
-
-.secundario:hover img{
-    background-color: white;
-}
 
 
 @keyframes flotacion {

@@ -32,31 +32,28 @@
     
     .banner-home{
         width: 100%;
-        .hero{
-            width: 100%;
-            height: 700px;
-            .foto-principal{
-                width: 100%;
-                height: 60%;
-                object-fit: cover;
-                position: absolute;
-                top: 130px;
-                left: 0;
-                z-index: 200;
-                background: none;
-            }
-            .fondo-miguel{
-                width: 80%;
-                height: 400px;
-                object-fit: cover;
-            }
-        }
-
     }
 
-  
+    .hero{
+        width: 100%;
+        height: 700px;
+        .foto-principal{
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+            position: absolute;
+            top: 130px;
+            left: 0;
+            z-index: 200;
+            background: none;
+        }
+        .fondo-miguel{
+            width: 80%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
     
-
     
     .industria-argentina {
         bottom: 80px;
@@ -179,25 +176,7 @@
     /* Arte mobile */
 
     #arte {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .contenedor-bloque-arte{
-            .texto-raya{
-            align-items: center;
-            h2 {
-                padding: 0px 22px;
-                font-size: 24px;
-                text-align: center;
-                display: inline;
-            }
-            .raya {
-                display: none
-            }
-            }
-        }
+        display: none;
         
     }
 
@@ -208,6 +187,7 @@
         align-items: center;
         align-content: center;
         margin-bottom: 20px;
+        margin-top: 40px;
         .boton-ver-mapa{
             display: flex;
             flex-direction: row;

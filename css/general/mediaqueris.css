@@ -28,11 +28,11 @@
   .banner-home {
     width: 100%;
   }
-  .banner-home .hero {
+  .hero {
     width: 100%;
     height: 700px;
   }
-  .banner-home .hero .foto-principal {
+  .hero .foto-principal {
     width: 100%;
     height: 60%;
     object-fit: cover;
@@ -42,7 +42,7 @@
     z-index: 200;
     background: none;
   }
-  .banner-home .hero .fondo-miguel {
+  .hero .fondo-miguel {
     width: 80%;
     height: 400px;
     object-fit: cover;
@@ -150,22 +150,6 @@
   }
   /* Arte mobile */
   #arte {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #arte .contenedor-bloque-arte .texto-raya {
-    align-items: center;
-  }
-  #arte .contenedor-bloque-arte .texto-raya h2 {
-    padding: 0px 22px;
-    font-size: 24px;
-    text-align: center;
-    display: inline;
-  }
-  #arte .contenedor-bloque-arte .texto-raya .raya {
     display: none;
   }
   #mapa .busca-punto-venta {
@@ -174,6 +158,7 @@
     align-items: center;
     align-content: center;
     margin-bottom: 20px;
+    margin-top: 40px;
   }
   #mapa .busca-punto-venta .boton-ver-mapa {
     display: flex;
