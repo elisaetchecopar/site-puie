@@ -351,39 +351,26 @@ footer div {
 }
 
 #arte {
-  height: 768px;
-}
-#arte .carrusel {
-  height: 768px;
-}
-#arte .carrusel .d-block {
-  height: 768px;
-  object-fit: cover;
+  padding-top: 320px;
+  padding-bottom: 320px;
 }
 #arte .contenedor-bloque-arte {
-  position: relative;
-  bottom: 400px;
-  z-index: 230;
   display: flex;
   align-content: center;
   justify-content: center;
-  background: none !important;
 }
 #arte .contenedor-bloque-arte .texto-raya {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background: none !important;
 }
 #arte .contenedor-bloque-arte .texto-raya h2 {
   text-align: center;
   display: inline;
-  background: none !important;
 }
 #arte .contenedor-bloque-arte .texto-raya .raya {
   display: flex;
   width: 240px;
-  background: none !important;
 }
 
 #mapa .busca-punto-venta {
@@ -391,11 +378,11 @@ footer div {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
-  margin-top: 120px;
+  margin-top: 0px;
   z-index: 400;
 }
 #mapa .busca-punto-venta .boton-ver-mapa {
-  display: flex;
+  display: none;
   flex-direction: row;
   color: #B3A1B2;
   padding-left: 30px;
@@ -442,7 +429,7 @@ footer div {
   border-style: solid;
   border-width: 8px;
   border-color: #F9F9F9;
-  margin-bottom: 30px;
+  margin-bottom: 4px;
   padding: 40px;
 }
 #cards-productos .card-puie img {
@@ -459,7 +446,7 @@ footer div {
 #cards-productos .card-puie .text-card p {
   font-size: 16px;
   background-color: white;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 #materiaPrima {
@@ -869,7 +856,7 @@ footer div {
     margin-top: 40px;
   }
   #mapa .busca-punto-venta .boton-ver-mapa {
-    display: flex;
+    display: none;
     flex-direction: row;
     color: #B3A1B2;
     padding-left: 30px;

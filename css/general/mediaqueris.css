@@ -161,7 +161,7 @@
     margin-top: 40px;
   }
   #mapa .busca-punto-venta .boton-ver-mapa {
-    display: flex;
+    display: none;
     flex-direction: row;
     color: #B3A1B2;
     padding-left: 30px;
