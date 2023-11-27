@@ -29,6 +29,7 @@
     width: 100%;
   }
   .hero {
+    display: none;
     width: 100%;
     height: 700px;
   }
@@ -47,7 +48,17 @@
     height: 400px;
     object-fit: cover;
   }
+  .heromobile {
+    margin-top: 50px;
+  }
+  .heromobile img {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
   .industria-argentina {
+    display: none;
     bottom: 80px;
     left: 1px;
     z-index: 2;
@@ -60,10 +71,17 @@
     font-size: 12;
   }
   #presentacionProductos {
-    padding: 100px 2px;
+    padding: 80px 2px;
   }
   #presentacionProductos h2 {
     font-size: 18px;
+  }
+  #presentacionProductos .primario {
+    padding: 8px 16px;
+    border-radius: 30px;
+  }
+  #presentacionProductos .primario a {
+    font-size: 14px;
   }
   #presentacionProductos .fotos-presentacion-productos {
     flex-direction: row;
@@ -150,7 +168,37 @@
   }
   /* Arte mobile */
   #arte {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  #arte .contenedor-bloque-arte {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  #arte .contenedor-bloque-arte .texto-raya {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #arte .contenedor-bloque-arte .texto-raya h2 {
+    text-align: center;
+    display: inline;
+    font-size: 22px;
+  }
+  #arte .contenedor-bloque-arte .texto-raya .raya {
     display: none;
+  }
+  .fotomobile {
+    padding-bottom: 50px;
+  }
+  .fotomobile img {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
   }
   #mapa .busca-punto-venta {
     display: flex;

@@ -27,6 +27,12 @@
     }
 }
 
+.heromobile{
+    img{
+        display: none;
+    }
+}
+
 
 
 .industria-argentina {
@@ -173,6 +179,15 @@
                 width: 240px;
             }
         }
+    }
+}
+
+.fotomobile{
+    img{
+        display: none;
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
     }
 }
 

@@ -25,6 +25,10 @@
   width: 50%;
 }
 
+.heromobile img {
+  display: none;
+}
+
 .industria-argentina {
   display: flex;
   flex-direction: row;
@@ -163,6 +167,13 @@
 #arte .contenedor-bloque-arte .texto-raya .raya {
   display: flex;
   width: 240px;
+}
+
+.fotomobile img {
+  display: none;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
 }
 
 #mapa .busca-punto-venta {
