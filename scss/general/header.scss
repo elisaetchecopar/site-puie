@@ -20,6 +20,9 @@ header {
     nav{
         div{
             background-color: #ffffff;
+            .navbar-brand{
+                margin-right: 40px;
+            }
             img{
                 background-color: #ffffff;
                 padding: none;
@@ -31,7 +34,7 @@ header {
                 background-color: #ffffff;
                  display: flex;
                  flex-direction: row;
-                 padding: 0 20px;
+                 gap: 32px;
                  a{
                     color: black;
                     font-weight: 600;

@@ -17,6 +17,9 @@ header {
 header nav div {
   background-color: #ffffff;
 }
+header nav div .navbar-brand {
+  margin-right: 40px;
+}
 header nav div img {
   background-color: #ffffff;
   padding: none;
@@ -28,7 +31,7 @@ header nav div ul {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  padding: 0 20px;
+  gap: 32px;
 }
 header nav div ul a {
   color: black;
@@ -98,13 +101,13 @@ h6 {
 
 /* Buttons */
 .primario {
-  background-color: #B3A1B2;
+  background-color: #0f0f0f;
   padding: 12px 24px;
   border-radius: 30px;
   border-style: none;
 }
 .primario a {
-  background-color: #B3A1B2;
+  background-color: #0f0f0f;
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -112,24 +115,24 @@ h6 {
   display: inline-block;
 }
 .primario img {
-  background-color: #B3A1B2;
+  background-color: #0f0f0f;
 }
 .primario:hover {
-  background-color: #9F8B9E;
+  background-color: #383838;
 }
 .primario:hover a {
-  background-color: #9F8B9E;
+  background-color: #383838;
 }
 .primario:hover img {
-  background-color: #9F8B9E;
+  background-color: #383838;
 }
 
 .secundario {
   padding: 12px 24px;
   border-radius: 30px;
   border-style: solid;
-  border-width: 2px;
-  border-color: black;
+  border-width: 1.5px;
+  border-color: rgb(183, 183, 183);
 }
 .secundario a {
   text-decoration: none;

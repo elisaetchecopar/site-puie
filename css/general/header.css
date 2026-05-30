@@ -17,6 +17,9 @@ header {
 header nav div {
   background-color: #ffffff;
 }
+header nav div .navbar-brand {
+  margin-right: 40px;
+}
 header nav div img {
   background-color: #ffffff;
   padding: none;
@@ -28,7 +31,7 @@ header nav div ul {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  padding: 0 20px;
+  gap: 32px;
 }
 header nav div ul a {
   color: black;
